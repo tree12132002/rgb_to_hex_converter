@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB to HEX converter</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="palette">
+    <div class="red">
+      <label class="r">R</label>
+      <input class="red-in" type="range" min="0" max="255" value="0" step="1">
+      <output class="red-out">0</output>
+    </div>
+    <div class="green">
+      <label class="g">G</label>
+      <input class="green-in" type="range" min="0" max="255" value="0" step="1">
+      <output class="green-out">0</output>
+    </div>
+    <div class="blue">
+      <label class="b">B</label>
+      <input class="blue-in" type="range" min="0" max="255" value="0" step="1">
+      <output class="blue-out">0</output>
+    </div>
+  </div>
+  <div class="color">
+    <output class="color-out">#000000</output>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

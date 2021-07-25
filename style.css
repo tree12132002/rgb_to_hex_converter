@@ -1,0 +1,41 @@
+body {
+  background-color: #ffffff ;
+  text-align: center;
+  margin-top: 20%;
+  background-color: rgb(0,0,0);
+}
+
+label, output {
+  border-radius: 3px;
+  padding: 2px 9px;
+  font-size: 1.2em;
+}
+
+output {
+  display: inline-block;
+  min-width: 2em;
+}
+
+input {
+  width: 200px;
+}
+
+.r, .red-out {
+  background-color: #ff0000;
+  margin: 15px 0 0 0;
+}
+
+.g, .green-out {
+  background-color: #00ff00;
+  margin: 15px 0 0 0;
+}
+
+.b, .blue-out {
+  background-color: #0000ff;
+  margin: 15px 0 0 0;
+}
+
+.color-out {
+  font-size: 2em;
+  background: rgba(255, 255, 255, 0.3);
+}
